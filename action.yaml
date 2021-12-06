@@ -1,7 +1,6 @@
 name: "Goimports Check Action"
 description: "A ready to use GitHub action to check goimports with folder/file exclusions"
 author: "Hemanth Krishna (DarthBenro008) hkpdev008@gmail.com"
-description: ""
 inputs:
   root-path:
     description: "Root path of GoImports"
