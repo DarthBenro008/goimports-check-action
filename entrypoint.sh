@@ -20,4 +20,4 @@ if [ -z "$GOIMPORTS_OUTPUT" ]; then
   exit 1
 fi
 
-echo "::set-output name=goimports-output::Goimports step succeed"
+echo "goimports-output=Goimports step succeed" >> ${GITHUB_OUTPUT}
